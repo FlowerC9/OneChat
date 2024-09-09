@@ -1,7 +1,7 @@
-import nodemailer from 'nodemailer'
+import nodemailer,{Transporter} from 'nodemailer'
 import { env } from '../schemas/env.schema.js'
 
-let transporter : nodemailer.Transporter
+let transporter : Transporter;
 
 try {
     transporter = nodemailer.createTransport({

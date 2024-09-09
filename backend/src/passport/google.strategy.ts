@@ -13,7 +13,7 @@ passport.use(new GoogleStrategy({
   },
 
   async function (accessToken, refreshToken, profile, done){
-
+    console.log(profile);
     try {
       if(profile.emails && profile.emails[0].value && profile.displayName){
 

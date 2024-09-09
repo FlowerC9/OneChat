@@ -9,7 +9,7 @@ export const useUpdateFcmToken = () => {
     const dispatch = useAppDispatch()
 
     const [updateFcmToken,{error,isError,isLoading,isSuccess,isUninitialized,data}] = useUpdateFcmTokenMutation()
-    useToast({error,isError,isLoading,isSuccess,isUninitialized,successMessage:"Great! now you will receive notifications from baatchit",successToast:true})
+    useToast({error,isError,isLoading,isSuccess,isUninitialized,successMessage:"Great! now you will receive notifications from OneChat",successToast:true})
 
     useEffect(()=>{
         if(isSuccess && data) dispatch(updateLoggedInUserFcmTokenStatus(data.fcmTokenExists))

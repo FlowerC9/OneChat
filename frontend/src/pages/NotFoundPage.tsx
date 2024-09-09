@@ -5,8 +5,8 @@ export const NotFoundPage = () => {
   return (
     <>
     <Helmet>
-        <title>Page Not Found - Baatchit</title>
-        <meta name="description" content="Oops! The page you're looking for doesn't exist. Return to Baatchit for real-time messaging and seamless communication." />
+        <title>Page Not Found - OneChat</title>
+        <meta name="description" content="Oops! The page you're looking for doesn't exist. Return to OneChat for real-time messaging and seamless communication." />
         <link rel="canonical" href={`${window.location.origin}${location.pathname}`} />
     </Helmet>
     <div className="bg-background w-screen h-screen p-4 flex justify-center">
@@ -18,7 +18,7 @@ export const NotFoundPage = () => {
                 <h4 className="text-text font-medium text-5xl">Ohh! looks like you landed on a wrong page 😺</h4>
             </div>
             <NavLink to={'/'}>
-                <button className="text-text text-xl bg-secondary-dark px-6 py-2 rounded-md">Return to baatchit</button>
+                <button className="text-text text-xl bg-secondary-dark px-6 py-2 rounded-md">Return to OneChat</button>
             </NavLink>
         </div>
 

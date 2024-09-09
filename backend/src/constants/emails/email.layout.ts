@@ -6,19 +6,19 @@ export const emailLayout = (content:string,emailType:EmailType) => {
 
     switch (emailType) {
       case "welcome":
-        headerTitle = "Welcome to Baatchit!";
+        headerTitle = "Welcome to OneChat!";
         break;
       case "resetPassword":
-        headerTitle = "Reset Your Baatchit Password";
+        headerTitle = "Reset Your OneChat Password";
         break;
       case "privateKeyRecovery":
         headerTitle = "Verify Private Key Recovery";
         break;
       case "OTP":
-        headerTitle = "Verify Your Baatchit Account";
+        headerTitle = "Verify Your OneChat Account";
         break;
       default:
-        headerTitle = "Baatchit";
+        headerTitle = "OneChat";
     }
 
   return `
@@ -107,7 +107,7 @@ export const emailLayout = (content:string,emailType:EmailType) => {
     <div class="container">
 
         <div class="header">
-            <img src="https://res.cloudinary.com/dh5fjdce9/image/upload/v1718195665/logo256_nhwcrt.png" alt="Baatchit Logo" />
+            <img src="https://res.cloudinary.com/dt14u6ijn/image/upload/v1724769302/sqrd7shr5mjjat3dw2df.png" alt="OneChat Logo" />
             <h1>${headerTitle}</h1>
         </div>
 
@@ -116,7 +116,7 @@ export const emailLayout = (content:string,emailType:EmailType) => {
         </div>
 
         <div class="footer">
-            <p>&copy; 2024 Baatchit. All rights reserved.</p>
+            <p>&copy; 2024 OneChat. All rights reserved.</p>
         </div>
 
     </div>

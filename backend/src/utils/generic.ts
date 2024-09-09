@@ -10,11 +10,11 @@ export const getRandomIndex=(length: number): number =>{
     return Math.floor(Math.random() * length);
 }
 
-export const sendPushNotification = ({fcmToken,body}:{fcmToken:string,body:string})=>{
+export const sendPushNotification = async ({fcmToken,body}:{fcmToken:string,body:string})=>{
 
     try {
         
-        messaging.send({
+        await messaging.send({
             data:{
                 click_action:"OPEN_APP",
             },

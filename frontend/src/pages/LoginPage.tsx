@@ -10,8 +10,8 @@ export const LoginPage = () => {
       <>
 
       <Helmet>
-        <title>Login - Baatchit</title>
-        <meta name="description" content="Login to Baatchit, your real-time chat application with seamless communication features." />
+        <title>Login - OneChat</title>
+        <meta name="description" content="Login to OneChat, your real-time chat application with seamless communication features." />
         <link rel="canonical" href={`${window.location.origin}/auth/login`} />
       </Helmet>
 

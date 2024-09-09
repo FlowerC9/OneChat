@@ -2,13 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-envyTagD0ZH_-tR0S75RauPLnDPbfHc",
-  authDomain: "baatchit-ee221.firebaseapp.com",
-  projectId: "baatchit-ee221",
-  storageBucket: "baatchit-ee221.appspot.com",
-  messagingSenderId: "477617343716",
-  appId: "1:477617343716:web:882725090b2342d67630f1",
-  measurementId: "G-NQ38JN1KB3"
+  apiKey: "AIzaSyBSNryKlYDF8wI6ennPRrlpTwrlTu9ukzA",
+  authDomain: "onechat-a2303.firebaseapp.com",
+  projectId: "onechat-a2303",
+  storageBucket: "onechat-a2303.appspot.com",
+  messagingSenderId: "243896323420",
+  appId: "1:243896323420:web:e7794d8e4e2dd44f774599",
+  measurementId: "G-PH5SHTT5E1",
 };
   
 firebase.initializeApp(firebaseConfig);
